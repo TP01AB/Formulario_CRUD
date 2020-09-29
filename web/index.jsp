@@ -14,14 +14,17 @@
     </head>
     <body>
         <form name="for" action="validar.jsp" method="POST">
-            <header> <h1>Bienvenido</h1></header>
-            <p>Usuario</p>      <input type="text" name="user" alt="introduce tu usuario" >
+            
+            <h1>Bienvenido</h1>
+            <table> 
+                <tr><td>Usuario:</td><td> <input type="text" name="pass" alt="introduce tu usuario" ></td></tr>
+                <tr><td>Contraseña:</td><td> <input type="text" name="user" alt="introduce tu usuario" ></td></tr>
+            </table>
 
-            <p>Contraseña</p>      <input type="text" name="pass" alt="introduce tu usuario" >
-
+            <br><br>
             <input type="submit" name="registro" value="Registrarse">
             <input type="submit" name="login" value="Login">
-            
+            <br> 
             <a href="./olvidado.jsp" >He olvidado mi contraseña</a>
         </form>
     </body>

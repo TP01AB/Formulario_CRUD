@@ -14,8 +14,11 @@
     </head>
     <body>
         <% Usuario u = (Usuario) session.getAttribute("usuario"); %>
-        <h2>Bienvenido <% out.println(u.getEmail()); %> </h2>
-        
-        <p></p>
+        <h2>Bienvenido <% out.println(u.getNombre()); %> </h2>
+        <br>
+        <p><%out.println(u);%></p>
+
+        <br>
+        <input type="submit" alt="Cerrar sesion" value="Cerrar sesion" id="sesion" >
     </body>
 </html>

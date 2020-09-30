@@ -10,10 +10,13 @@ package datos;
  * @author isra9
  */
 public class Usuario {
-
+    
     String email;
     String pass;
     int rango;
+
+    public Usuario() {
+    }
 
     public Usuario(String email, String pass) {
         this.email = email;
